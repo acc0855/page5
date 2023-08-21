@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+
+        .container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80%;
+            max-width: 800px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #e74c3c; /* Red color */
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        pre {
+            background-color: #fff; /* White background */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            font-size: 16px;
+            line-height: 1.6;
+            color: #333;
+            overflow: auto;
+            text-align: left;
+        }
+
+        pre h3 {
+            color: #3498db; /* Blue color */
+        }
+
+        
+   
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Java </h1>
+        <pre>
+            <h3>Java:</h3> Java is a popular and widely used programming language that was first developed by Sun Microsystems in the mid-1990s...
+            Certainly! Java is a popular and versatile programming language that was developed by Sun Microsystems and released in 1995. It is known for its platform independence, strong object-oriented features, and wide range of applications. Java's design principles and features make it suitable for various domains, including web development, mobile app development, enterprise software, scientific computing, and more. Here are some key aspects of Java:
+
+            Platform Independence: One of Java's most significant features is its "write once, run anywhere" capability. Java programs are compiled into bytecode, which can be executed on any platform that has a compatible Java Virtual Machine (JVM). This allows Java applications to run on different operating systems without modification.
+            
+            Object-Oriented Programming (OOP): Java is built around the principles of object-oriented programming. It supports classes, objects, inheritance, encapsulation, and polymorphism, which allow developers to create modular, reusable, and organized code.
+            
+            Rich Standard Library: Java comes with a comprehensive standard library, also known as the Java API (Application Programming Interface). This library provides pre-built classes and methods for tasks such as input/output, networking, data manipulation, and more, saving developers time and effort.
+            
+            Garbage Collection: Java features automatic memory management through a process called garbage collection. The JVM automatically identifies and reclaims memory that is no longer used by the program, helping to prevent memory leaks.
+            
+            Robustness and Safety: Java's strict type-checking and compile-time error checking contribute to its robustness. These features help catch potential issues early in the development process and reduce runtime errors.
+            
+            Multithreading: Java supports multithreading, enabling developers to create programs that can perform multiple tasks concurrently. This is particularly useful for applications that need to handle multiple operations simultaneously.
+            
+            Security: Java places a strong emphasis on security. It includes features like class loading and security managers to prevent unauthorized access to system resources and ensure safe execution of code.
+            
+            Popular Frameworks: Java has a thriving ecosystem with various frameworks and libraries for different purposes. For web development, frameworks like Spring and JavaServer Faces (JSF) are commonly used. Android apps are primarily written in Java for mobile app development.
+            
+            Community and Support: Java has a large and active developer community, providing a wealth of resources, tutorials, and forums for learning and troubleshooting.
+            
+            Diverse Applications: Java is utilized in a wide range of applications, including web development, mobile app development (especially for Android), enterprise software, scientific computing, financial applications, and more.
+            
+            Overall, Java's versatility, portability, and support for object-oriented programming have contributed to its widespread adoption and continued relevance in the software development landscape. It is an excellent language for beginners and experienced developers alike due to its consistent syntax, extensive documentation, and broad range of applications.
+        </pre>
+    </div>
+    <div class="home">
+        <button id="btn">HOME</button>
+    </div>
+    <script>
+        const btn = document.getElementById("btn");
+        btn.style.color = "red"
+        btn.style.backgroundColor = "blue"
+        btn.addEventListener("click", () => {
+            window.location.href = "index.html";
+        });
+    </script>
+    
+</body>
+</html>
